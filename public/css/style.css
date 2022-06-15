@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+body {
+    font-family:'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+.header {
+    background-color: #0095ff;
+    text-align: center;
+    padding-top: 1px;
+    color: white;
+}
+
+img {
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.jumbotron {
+    padding: 60px;
+    background-image: url('https://storage.googleapis.com/a-web-require-file/img/background-header.jpeg');
+    text-align: center;
+    color: rgb(35, 125, 243);
+    height: 30%;
+    font-size: 100%;
+    text-align: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+.content{
+    display: flex;
+    margin: 0 2cm 0 2cm;
+    text-align: center;
+}
+
+.content p{
+	text-align: justify;
+}
+
+.profile-summary {
+    margin: 0 2cm 0 0;
+    text-align: left;
+    width: 75%;
+}
+
+.personal-information {
+    text-align: left
+}
+
+.find-me-on {
+    padding-top: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.sosial-media{
+    display: flex;
+    justify-content: center;
+}
+ 
+.logo-sosmed{
+    width: 40px;
+    height: auto;
+}
+
+.logo-sosmed-github {
+    width: 35px;
+    height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+
+    main {
+        width: 100%;
+    }
+	.content {
+        display: inline;
+    }
+}
