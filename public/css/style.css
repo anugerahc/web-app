@@ -3,6 +3,8 @@
 body {
     font-family:'Nunito', sans-serif;
     font-weight: 900;
+    margin: 0;
+	padding: 0;
 }
 
 .header {
@@ -35,13 +37,13 @@ main {
 	overflow: auto;
 }
 
-.content{
+.content {
     display: flex;
     margin: 0 2cm 0 2cm;
     text-align: center;
 }
 
-.content p{
+.content p {
 	text-align: justify;
 }
 
@@ -63,12 +65,12 @@ main {
 }
 
 
-.sosial-media{
+.sosial-media {
     display: flex;
     justify-content: center;
 }
  
-.logo-sosmed{
+.logo-sosmed {
     width: 40px;
     height: auto;
 }
